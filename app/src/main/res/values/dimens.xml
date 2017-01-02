@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="double_padding">8dp</dimen>
+    <dimen name="toolbarHeight">60dp</dimen>
+    <dimen name="toolbarRightMargin">25dp</dimen>
+    <dimen name="progressBarSize">128dp</dimen>
+
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_title_name">20sp</dimen>
+</resources>

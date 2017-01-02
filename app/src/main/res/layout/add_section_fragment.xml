@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/add_section_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/root_wrap.AddSectionTVStyle"
+                android:text="Name" />
+            <EditText
+                android:id="@+id/et_section_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="25dp"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:maxLength="27"
+                android:textColor="@color/editTextColor"
+                android:textSize="18sp"
+                android:textColorHint="@color/editTextColor"
+                android:hint="Input section's name"
+                android:background="@drawable/et_add_section"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/root_wrap.AddSectionTVStyle"
+                android:text="Description" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="25dp"
+                android:padding="5dp"
+                android:id="@+id/et_message_box"
+                android:autoLink="all"
+                android:textSize="18sp"
+                android:textColor="@color/editTextColor"
+                android:textColorHint="@color/editTextColor"
+                android:hint="Input section's description"
+                android:lines="5"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:maxLength="100"
+                android:scrollbars="none"
+                android:inputType="textMultiLine|textCapSentences"
+                android:background="@drawable/et_add_section"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
